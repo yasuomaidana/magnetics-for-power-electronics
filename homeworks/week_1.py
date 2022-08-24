@@ -1,3 +1,4 @@
+from components.reactance import Reactance
 from components.resistance import Resistance
 
 n = 20
@@ -10,4 +11,7 @@ area = 13.07e-5
 
 R = Resistance(wire_length, area)
 
-print("Winding resistance {:e} ohms".format(R.value))
+print("Winding resistance {:e} ohms".format(R.resistance))
+
+R1 = Reactance(9e-2, 1e-2, 1000)
+print(R1.reactance)
