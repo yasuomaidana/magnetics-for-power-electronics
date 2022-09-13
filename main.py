@@ -11,5 +11,5 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    import homeworks.week_2
+    import homeworks.week_3
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
